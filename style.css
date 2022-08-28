@@ -1,0 +1,43 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+
+    margin: 1px 2rem;
+    background-color: antiquewhite;
+    font-variant: small-caps;
+}
+
+
+.box{
+display: flex;
+
+
+}
+.img img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.box .a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    top: 6rem;
+    transition: .3s all ease-in-out;
+}
+
+.box .a:hover{
+
+    color: blueviolet;
+    font-weight: bold;
+}
+
+
+.fun {
+    border-radius: 20%;
+}
